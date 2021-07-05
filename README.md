@@ -52,3 +52,7 @@ Nest is [MIT licensed](LICENSE).
 
 ## MySQLをインストールする
 npm install --save @nestjs/typeorm typeorm mysql2
+
+## bcryptのインストール
+$ npm i bcrypt
+$ npm i -D @types/bcrypt
