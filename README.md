@@ -51,8 +51,14 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 Nest is [MIT licensed](LICENSE).
 
 ## MySQLをインストールする
-npm install --save @nestjs/typeorm typeorm mysql2
+npm install --save @nestjs/typeorm typeorm mysql2  
 
 ## bcryptのインストール
-$ npm i bcrypt
-$ npm i -D @types/bcrypt
+$ npm i bcrypt(or) npm i bcryptjs    
+$ npm i -D @types/bcrypt(or) npm i -D @types/bcrypt  
+
+## validationのためのインストール
+npm install class-validator --save
+
+## classをインスタンス化できるclass-transformerをインストールする
+$ npm install class-transformer --save
