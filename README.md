@@ -62,3 +62,7 @@ npm install class-validator --save
 
 ## classをインスタンス化できるclass-transformerをインストールする
 $ npm install class-transformer --save
+
+## jwtトークンを復号するパッケージ
+$ npm install --save @nestjs/jwt passport-jwt     
+$ npm install --save-dev @types/passport-jwt
