@@ -80,3 +80,6 @@ $ nest g guard auth/auth
 
 ## 共有モデルの作成
 $ nest g module common
+
+## ファイルを監視する
+npm i multer @types/multer
