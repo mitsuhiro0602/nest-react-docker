@@ -77,3 +77,6 @@ $ nest g interceptor auth/auth（使わない）
 
 ## Gurardを追加する
 $ nest g guard auth/auth
+
+## 共有モデルの作成
+$ nest g module common
