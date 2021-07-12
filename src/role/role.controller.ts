@@ -8,13 +8,13 @@ export class RoleController {
 
   }
   @Get()
-  @HasPermission('roles')
+  // @HasPermission('roles')
   async all() {
     return this.roleService.all();
   }
 
   @Post()
-  @HasPermission('roles')
+  // @HasPermission('roles')
   async create(
     @Body('name') name: string,
     @Body('permissions') ids: number[]
@@ -26,13 +26,13 @@ export class RoleController {
   }
 
   @Get(':id')
-  @HasPermission('roles')
+  // @HasPermission('roles')
   async get(@Param('id') id: number) {
     return this.roleService.findOne({id}, ['permissions']);
   }
 
   @Put(':id')
-  @HasPermission('roles')
+  // @HasPermission('roles')
   async update(
     @Param('id') id: number,
     @Body('name') name: string,
@@ -48,7 +48,7 @@ export class RoleController {
   }
 
   @Delete(':id')
-  @HasPermission('roles')
+  // @HasPermission('roles')
   async delete(
     @Param('id') id: number
   ) {
