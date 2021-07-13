@@ -58,7 +58,7 @@ export class OrderController {
   }
 
   @Get('chart')
-  @HasPermission('orders')
+  // @HasPermission('orders')
   async chart() {
     return this.orderService.chart();
   }

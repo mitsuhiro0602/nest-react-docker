@@ -46,7 +46,7 @@ export class UserController {
   }
 
   @Put('info')
-  @HasPermission('users')
+  // @HasPermission('users')
   async updateInfo(
     @Req() request: Request,
     @Body() body: UserUpdateDto
